@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 521019951643201760}
   - component: {fileID: 4346231888284757310}
   m_Layer: 9
-  m_Name: GermOBlaster
+  m_Name: Germkiller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,12 +46,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 625ccb94bf93077498982c16ee690870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerType: 0
+  triggerType: 1
   weaponType: 0
   fireRate: 0.1
   reloadTime: 1.5
-  clipSize: 30
-  damage: 1
+  clipSize: 8
+  damage: 5
   ammoType: 0
   projectilePrefab: {fileID: 0}
   projectileLaunchForce: 200
@@ -715,6 +715,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f9cc11d7c3cc75847b26ab2a841311d4, type: 2}
+    - target: {fileID: 2300018, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e4500906756f2a4990011af85b6a9b4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
